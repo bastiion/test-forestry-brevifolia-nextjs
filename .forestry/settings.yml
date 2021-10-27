@@ -7,7 +7,6 @@ sections:
 - type: document
   path: juice/abount
   label: About
-  match: "**/*"
 - type: document
   path: juice
   label: Juice
