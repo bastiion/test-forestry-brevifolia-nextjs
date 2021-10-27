@@ -5,8 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: juice/abount
-  label: About
+  path: about
+  label: about
+  match: "**/*"
+  read_only: false
 - type: document
   path: juice
   label: Juice
